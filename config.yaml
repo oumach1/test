@@ -1,0 +1,24 @@
+credentials:
+  usernames:
+    alice:
+      email: alice@example.com
+      name: Alice
+      password: $2b$12$opE5A2gjRh2bw.1458tvsO6tMS2h2HADdNFa2Ru5q9NQuxwEAKQ0a
+      role: admin
+    bob:
+      email: bob@example.com
+      name: Bob
+      password: $2b$12$JVDcSkSaOYT7H6z.3AbscuPJcrqSqxENqTx5LY9yNxgbxq2Clf/bW
+      role: viewer
+    charlie:
+      email: charlie@example.com
+      name: Charlie
+      password: $2b$12$sj16aff.7/X.Huhi14tG5uGYS/zW2BHdImEIMcwNnh4Nsm553vudW
+      role: export_only
+cookie:
+  expiry_days: 1
+  key: some_signature_key
+  name: some_cookie_name
+preauthorized:
+  emails:
+    - test@example.com
