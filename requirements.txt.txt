@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly.express
+boto3
+yaml
+base64
+Path
+streamlit_authenticator
